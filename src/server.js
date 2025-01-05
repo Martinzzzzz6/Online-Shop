@@ -33,4 +33,4 @@ app.use(errorHandler);
 swaggerSetup(app);
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Swagger running on http://localhost:${PORT}/api-docs`));
